@@ -1,5 +1,7 @@
 <?php
 
+require_once('inc/cpt.php');
+
 /**
 *   enqueue scripts and styles
  */
