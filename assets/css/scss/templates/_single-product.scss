@@ -1,0 +1,54 @@
+.product {
+    padding-bottom: 50px;
+
+    &__inner {
+        padding-top: 30px;
+    }
+
+    &__image {
+        margin-bottom: 20px;
+    }
+
+    &__title {
+
+    }
+
+    &__description {
+        margin-bottom: 30px;
+    }
+
+    &__price {
+        display: flex;
+        margin-bottom: 20px;
+
+        .sale-price {
+            margin-left: 20px;
+            color: $orange;
+        }
+
+    }
+
+    figure {
+        position: relative;
+        height: 150px;
+
+        img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    }
+
+}
+
+.custom-product {
+    text-decoration: none;
+    color: $black;
+
+    &__title {
+        padding: 10px 0;
+    }
+
+}

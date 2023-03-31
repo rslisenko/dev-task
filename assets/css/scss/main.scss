@@ -1,0 +1,12 @@
+@import 'vars';
+@import "mixins";
+@import "fonts";
+@import "global";
+
+// parts
+@import "parts/header";
+@import "parts/footer";
+
+// templates
+@import "templates/home-page";
+@import "templates/single-product";
